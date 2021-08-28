@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import {useState} from 'react'
 
 const AddTask = ({ onAdd }) => {
     const [text, setText] = useState('')
@@ -50,7 +50,7 @@ const AddTask = ({ onAdd }) => {
                 />
             </div>
 
-            <input className='btn btn-block' type='submit' value='Save Task'></input>
+            <input className='btn btn-block' type='submit' value='Save Task'/>
         </form>
     )
 }
